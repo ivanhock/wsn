@@ -25,7 +25,7 @@
 \.metadata/
 /log/
 /config/database.yml
-/public/imagens/
-/public/programas/
+/public/system/imagens/
+/public/system/programas/
 /otap/xbee.conf
 \.idea/
