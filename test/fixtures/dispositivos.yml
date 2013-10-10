@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  mac: MyString
+  identificador: MyString
+  nombre: MyString
+  descripcion: MyText
+  ultima_comunicacion: 2013-05-14 19:49:39
+  tipo: MyString
+  software_ejecutando: MyString
+
+two:
+  mac: MyString
+  identificador: MyString
+  nombre: MyString
+  descripcion: MyText
+  ultima_comunicacion: 2013-05-14 19:49:39
+  tipo: MyString
+  software_ejecutando: MyString

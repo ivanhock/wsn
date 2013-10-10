@@ -1,0 +1,40 @@
+<ol class="form">
+
+  <li class="form-element">
+    <dl>
+      <dt><label>A todos los dispositivos disponibles</label>
+      </dt>
+      <dd><input type="radio" name="mode" value="broadcast">
+        <span class="description"></span>
+      </dd>
+    </dl>
+  </li>
+
+  <li class="form-element">
+    <dl>
+      <dt><label>A los dispositivos seleccionados</label>
+      </dt>
+      <dd><input type="radio" name="mode" value="unicast">
+        <span class="description"></span>
+
+
+        <ol class="form">
+          <% for d in Dispositivo.all %>
+              <li class="form-element">
+                <dl>
+                  <dt><label><%=h d.mac %>, <%=h d.nombre %></label>
+                  </dt>
+                  <dd><%= check_box_tag("mac[]", d.mac) %>
+                    <span class="description"></span>
+                  </dd>
+                </dl>
+              </li>
+
+          <% end %>
+        </ol>
+
+      </dd>
+    </dl>
+  </li>
+
+</ol>

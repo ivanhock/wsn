@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  dispotivo: 
+  fecha: 2013-07-04 16:26:30
+  valor: 9.99
+  variable: 
+
+two:
+  dispotivo: 
+  fecha: 2013-07-04 16:26:30
+  valor: 9.99
+  variable: 

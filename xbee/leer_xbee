@@ -1,0 +1,1 @@
+java -classpath .:./lib/*:./bin es.iecolab.wsn.ReadData /dev/ttyUSB0 38400 http://localhost/api/new_data_mote 2>&1 >> output.log

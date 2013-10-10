@@ -1,0 +1,3 @@
+class WsController < ApplicationController
+
+end

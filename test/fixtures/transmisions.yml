@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  desde_fecha: 2013-10-08
+  hasta_fecha: 2013-10-08
+  fecha: 2013-10-08 17:59:51
+  origen: MyString
+
+two:
+  desde_fecha: 2013-10-08
+  hasta_fecha: 2013-10-08
+  fecha: 2013-10-08 17:59:51
+  origen: MyString

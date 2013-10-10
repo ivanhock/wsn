@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  xbee_port: MyString
+  xbee_pan_id: MyString
+  xbee_channel: MyString
+  xbee_key: MyString
+
+two:
+  xbee_port: MyString
+  xbee_pan_id: MyString
+  xbee_channel: MyString
+  xbee_key: MyString

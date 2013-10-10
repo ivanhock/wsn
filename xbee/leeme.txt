@@ -1,0 +1,4 @@
+Lista de comandos para las comunicaciones
+
+## java -classpath .:./lib/*:./bin es.iecolab.wsn.ReadDataCoverage /dev/tty.usbserial-A6015JWE 38400
+## java -classpath .:./lib/*:./bin es.iecolab.wsn.ReadData /dev/tty.usbserial-A6015JWE 38400 http://localhost:3000/api/new_data_mote 2>&1 >> output.log

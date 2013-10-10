@@ -1,0 +1,2 @@
+## java -classpath .:./lib/*:./bin es.iecolab.wsn.ReadDataCoverage /dev/tty.usbserial-A8008Zvh 38400 0013A200408BC821 test_cobertura.db $1
+java -classpath .:./lib/*:./bin es.iecolab.wsn.ReadDataCoverage /dev/tty.usbserial-A8008Zvh 38400 0013A200408BC821 test_cobertura.db $1
